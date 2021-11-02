@@ -61,8 +61,8 @@ contract BinarySystem is Admin{
   uint256 public porcientoPay = 100;
 
   uint256 public inversiones = 1;
-  uint256[] public primervez = [25, 0, 0, 0, 0];
-  uint256[] public porcientos = [50, 0, 0, 0, 0];
+  uint256[] public primervez = [80, 0, 0, 0, 0];
+  uint256[] public porcientos = [80, 0, 0, 0, 0];
   uint256[] public porcientosSalida = [20, 10, 10, 5, 5];
 
   uint256[] public plans = [0, 25*10**6, 50*10**6, 100*10**6, 250*10**6, 500*10**6, 1000*10**6, 2500*10**6, 5000*10**6, 10000*10**6];
@@ -73,13 +73,13 @@ contract BinarySystem is Admin{
   bool public sisReferidos = true;
   bool public sisBinario = true;
 
-  uint256 public dias = 400;
+  uint256 public dias = 111;
   uint256 public unidades = 86400;
 
   uint256 public maxTime = 90;
   uint256 public porcent = 200;
 
-  uint256 public porcentPuntosBinario = 5;
+  uint256 public porcentPuntosBinario = 8;
 
   uint256 public descuento = 90;
   uint256 public personas = 2;
@@ -102,9 +102,9 @@ contract BinarySystem is Admin{
   uint256 public activerFee = 1;
   // 0 desactivada total | 1 activa 5% fee retiro | 2 activa fee retiro y precio de registro
 
-  address[] public wallet = [0x7F5420df220D14A1A8D83ec2d8B4963cDB1414b8, 0x8dB62d0fa3EF49b9C3269b8b74f0098571093C9a, 0x21f5ca405781DA6B4e5055E6a4e7126eC73204a9 ];
-  bool[] public transfer = [true, true, true];
-  uint256[] public valor = [10, 5, 65];
+  address[] public wallet = [0x7F5420df220D14A1A8D83ec2d8B4963cDB1414b8, 0x175dc09D0E57Cd20e54f7674591d83f18EDD7Daa, 0x12E6838C2E850f15716827c7De4645a2C540a402, 0xFE1cD2513b8f69bA728b0d2C65932a46d260A321, 0x9aBD7f03580b3147A8f1eB326e3ff65bD6fE7085];
+  bool[] public transfer = [true, true, true, true, true];
+  uint256[] public valor = [5, 4, 2, 2, 2];
 
   constructor() {
 
